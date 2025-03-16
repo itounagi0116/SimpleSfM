@@ -363,10 +363,7 @@ SimpleSfMは以下の主要なライブラリとアルゴリズムを使用し�
 
 ### 8.4 参考資料
 
-- [公式ウェブサイト](https://example.com/simpleSfM)
 - [GitHub リポジトリ](https://github.com/example/simpleSfM)
-- [オンラインフォーラム](https://forum.example.com/simpleSfM)
-- [チュートリアルビデオ](https://youtube.com/playlist?list=example_simpleSfM)
 
 ### 8.5 ライセンス情報
 
