@@ -56,18 +56,6 @@ SimpleSfMは、写真から3Dモデルを生成するためのフォトグラメ
 
 ### 2.2 インストール手順
 
-#### Windowsの場合
-
-1. [リリースページ](https://example.com/simpleSfM/releases)から最新版のインストーラー（SimpleSfM-Setup.exe）をダウンロード
-2. ダウンロードしたインストーラーを実行し、画面の指示に従ってインストール
-3. インストールが完了すると、デスクトップにショートカットが作成されます
-
-#### macOSの場合
-
-1. [リリースページ](https://example.com/simpleSfM/releases)から最新版のDMG（SimpleSfM.dmg）をダウンロード
-2. DMGファイルを開き、SimpleSfMアプリケーションをApplicationsフォルダにドラッグ＆ドロップ
-3. 初回起動時にセキュリティ警告が表示される場合は、システム環境設定→セキュリティとプライバシーから許可してください
-
 #### Linuxの場合
 
 1. 提供されているインストールスクリプトを使用してインストール：
@@ -75,7 +63,7 @@ SimpleSfMは、写真から3Dモデルを生成するためのフォトグラメ
 ```bash
 wget https://example.com/simpleSfM/install.sh
 chmod +x install.sh
-./install.sh
+./extensions-install.sh
 ```
 
 または、ソースコードからインストールする場合：
@@ -83,7 +71,17 @@ chmod +x install.sh
 ```bash
 git clone https://github.com/example/simpleSfM.git
 cd simpleSfM
-./install.sh
+./extensions-install.sh
+```
+
+#### Windowsの場合
+
+ソースコードからインストールする場合：
+
+```ps1
+git clone https://github.com/example/simpleSfM.git
+cd simpleSfM
+./extensions-install-win.ps1
 ```
 
 ### 2.3 拡張機能のインストール
